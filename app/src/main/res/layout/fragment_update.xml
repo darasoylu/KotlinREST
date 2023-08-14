@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CC908C">
+
+    <TextView
+        android:id="@+id/updateUserTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:text="Update User"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="#E0D1E4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/updateUserFirstNameET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#E0D1E4"
+        android:hint="FirstName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/updateUserTV" />
+
+    <EditText
+        android:id="@+id/updateUserLastNameET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#E0D1E4"
+        android:hint="LastName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/updateUserFirstNameET" />
+
+    <EditText
+        android:id="@+id/updateUserAgeET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#E0D1E4"
+        android:hint="Age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/updateUserLastNameET" />
+
+    <EditText
+        android:background="#E0D1E4"
+        android:id="@+id/updateUserImageET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/updateUserAgeET" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateUserImageET">
+
+        <Button
+            android:id="@+id/updateUserBt"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#AB48C6"
+            android:text="UPDATE"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/deleteUserBt"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="#AB48C6"
+            android:text="DELETE"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
