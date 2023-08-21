@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#CC908C">
 
     <TextView
@@ -12,8 +12,8 @@
         android:layout_marginTop="100dp"
         android:text="Update User"
         android:textAlignment="center"
-        android:textSize="32sp"
         android:textColor="#E0D1E4"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,9 +23,11 @@
         android:id="@+id/updateUserFirstNameET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginTop="20dp"
-        android:background="#E0D1E4"
+        android:background="@drawable/rounded_et"
         android:hint="FirstName"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/updateUserTV" />
@@ -34,9 +36,11 @@
         android:id="@+id/updateUserLastNameET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginTop="20dp"
-        android:background="#E0D1E4"
+        android:background="@drawable/rounded_et"
         android:hint="LastName"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/updateUserFirstNameET" />
@@ -45,20 +49,24 @@
         android:id="@+id/updateUserAgeET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginTop="20dp"
-        android:background="#E0D1E4"
+        android:background="@drawable/rounded_et"
         android:hint="Age"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/updateUserLastNameET" />
 
     <EditText
-        android:background="#E0D1E4"
         android:id="@+id/updateUserImageET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_et"
         android:hint="Image"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/updateUserAgeET" />
@@ -66,8 +74,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="20dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/updateUserImageET">
@@ -90,7 +98,6 @@
             android:textSize="18sp" />
 
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
