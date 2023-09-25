@@ -1,6 +1,13 @@
 # KotlinREST
 Kotlin REST project
 
+## Libraries
+- Navigation
+- MVVM architecture
+- Retrofit
+- Coroutines
+- Glide
+
 ## Installation
 
 ```bash
