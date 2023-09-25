@@ -1,7 +1,7 @@
 # KotlinREST
 Kotlin REST project
 
-## Libraries
+## Libraries and Features
 - Navigation
 - MVVM architecture
 - Retrofit
